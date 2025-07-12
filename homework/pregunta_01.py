@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 def pregunta_01():
     #Definicion de rutas
-    input_dir = "files/input/"
-    output_dir = "files/output/"
+    input_dir = "files/input/news.csv"
+    output_dir = "files/plots/news.png"
     os.makedirs(output_dir, exist_ok=True)
 
     plt.Figure()
