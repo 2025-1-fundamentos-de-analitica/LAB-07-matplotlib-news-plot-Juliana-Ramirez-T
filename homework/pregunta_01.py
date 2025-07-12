@@ -33,7 +33,7 @@ def pregunta_01():
     }
 
     #MODIFICAR
-    df = pd.read.csv(input_dir, index_col=0)
+    df = pd.read_csv(input_dir, index_col=0)
     for col in df.columns:
         plt.plot(
             df[col], 
