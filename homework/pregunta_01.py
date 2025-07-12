@@ -7,7 +7,8 @@ def pregunta_01():
     #Definicion de rutas
     input_dir = "files/input/news.csv"
     output_dir = "files/plots/news.png"
-    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(os.path.dirname(output_dir), exist_ok=True)
+
 
     plt.Figure()
 
